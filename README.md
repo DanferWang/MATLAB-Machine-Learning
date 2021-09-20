@@ -43,13 +43,13 @@ bballStat.txt: 篮球运动员每年的技术数据，包括参加比赛、得�
 
 ## Low Dimensional Analysis：低维分析
 
-[Classical Multi-dimensional Scaling]()：
+[Classical Multi-dimensional Scaling](https://github.com/DanferWang/MATLAB-Machine-Learning/blob/main/LowDimAnalysis/ClassicalMultidimensionalScaling.m)：
 
 - 首先计算距离对（欧氏距离）
 - 根据距离对计算多维的特征值，根据特征值 e 来确定低维近似值是否合理
 - 画图分析：如果前p个特征值明显大于其余的，则可以通过这p个维度很好地近似（降维）
 
-[Principal Component Analysis]():
+[Principal Component Analysis](https://github.com/DanferWang/MATLAB-Machine-Learning/blob/main/LowDimAnalysis/PrincipalComponentAnalysis.m):
 
 - 一个pca函数解决问题
 - 结果的第一个参数是主成分坐标轴，第二个是对应新坐标

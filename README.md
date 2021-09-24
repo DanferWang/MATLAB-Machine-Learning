@@ -67,3 +67,10 @@ bballStat.txt: 篮球运动员每年的技术数据，包括参加比赛、得�
 
 - 拟合高斯混合模型：按照聚类数量需求，拟合n个多维高斯（正态）分布-GMM
 - 确定聚类目标：将数据按照GMM概率结果聚类
+
+## Hierarchical Clustering
+
+[Hierarchical](https://github.com/DanferWang/MATLAB-Machine-Learning/blob/main/HierarchicalClustering/Hierarchical.m)
+
+- 确定分层结构：定义聚类距离方式和距离准则
+- 划分层次树为类别：根据层次图确定最大聚类数量

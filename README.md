@@ -114,3 +114,13 @@ bballStat.txt: 篮球运动员每年的技术数据，包括参加比赛、得�
 - 混淆矩阵函数
 
 - 散点标记函数
+
+## 监督性-分类
+
+#### 数据集说明
+
+Triplex Pump Dataset：数据集为石油和天然气行业常用的三缸泵的故障分类数据。数据维度为1000 $\times$ 85，包含6组观测信号与一个故障码变量。其中对于6 个信号中的每一个都包含 14 个测量值，总共 84 个测量值构成了预测变量。故障码变量 FailureCode 由这三种故障类型的组合组成：BearingFault，BlockingFault，LeakingFault。
+
+### 分类任务的学习流程
+
+[Workflow](./ClassificationWorkflow/workflow.m)
